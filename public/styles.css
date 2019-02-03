@@ -1,0 +1,595 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Roboto');
+
+body {
+    font-family: 'Lato', sans-serif;   
+}
+
+.container-fluid {
+    padding: 0;
+    overflow: hidden;   
+}
+
+.side-image {
+    background: url(../images/side_image.png) no-repeat center;
+    background-size: cover;
+    height: 1024px;    
+}
+
+.main-title {
+    font-size: 24px;    
+    font-weight: 700; 
+}
+
+.subtitle {
+    font-size: 16px;     
+}
+
+
+/* ---------------- style for login form --------------- */
+.main-title-login {
+    margin-top: 5%;
+    margin-bottom: 2.7%;
+}
+
+.subtitle-login {
+    margin-bottom: 3%;
+}
+
+.login-form .form-control {
+    margin-bottom: 15px;    
+}
+
+.login-form .forgot-pass {
+    color: #858585;
+    float: right;
+    font-size: 14px;
+    margin-bottom: 3px;   
+}
+
+.login-form .forgot-pass:hover {
+    color: #E05139;   
+}
+
+
+/* -------------- style for register form ----------------- */
+.main-title-register {
+    margin-top: 4%;
+    margin-bottom: 1.5%;    
+}
+
+.subtitle-register {
+    margin-bottom: 3.22%;    
+}
+
+.register-form .form-control{
+    margin-top: 22px;  
+}
+
+.email-error-message{
+    display: inline-block;
+    margin-top: -36px;
+}
+
+.btn-register {
+    margin-top: 22px;
+    margin-bottom: 30px;   
+}
+
+.register-form .police{
+    font-size: 14px;
+    color: #34495E;  
+}
+
+.register-form .police:hover{
+    color: #1EB3F4; 
+}
+
+.link-login {
+    margin-top: 20px; 
+}
+
+.link-login a{
+    padding-left: 5px;  
+}
+
+.link-login a:hover {
+    color: #000;   
+}
+
+
+/* ------------ style for both forms -------------- */
+form {
+    width: 400px;  
+}
+
+form .form-control{
+    border: 1px solid #DDDDDD;
+    height: 50px;  
+}
+
+form .form-control::placeholder {
+    color: #7C8495;   
+}
+
+form a {
+    color: #E05139;  
+}
+
+form a:hover {
+    text-decoration: none;
+    color: #E05139;  
+}
+
+form button {
+    background-color: #1EB3F4;
+    width: 100%;
+    height: 50px;
+    margin-top: 7px;
+    margin-bottom: 40px;
+    color: white;
+    font-weight: 900;
+    font-size: 14px;
+    letter-spacing: 2.36px;   
+}
+
+form button:hover {
+    background-color: #fff;
+    border: 1px solid #1EB3F4;
+    color: #1EB3F4;   
+}
+
+/* ------------- dashboard style ----------- */
+
+/* ---------------- header ---------------- */
+.header-wrapper {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;    
+}
+
+.fa-bell{
+    color: #E6E6E6;
+    font-size: 20px;  
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;  
+}
+
+#user-name{
+    color: #999;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 13px;   
+}
+
+#dropdownMenuLink{
+    color: #000;
+    font-size: 25px;
+    padding: 0px;
+    height: 35px    
+}
+
+.list-inline-item {
+    margin: 0px;
+}
+
+.nav-profile {
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav-profile li:nth-child(3){
+    padding-left: 10px;
+}
+
+.nav-profile .fa-bell {
+    text-decoration: none;
+    padding-right: 25px;
+}
+
+.nav-profile .fa-bell:hover{
+    color: red;
+}
+
+/* -------------- side bar ------------------- */
+.side-bar{
+    background-color: #F5F5F5;
+    border-right: 1.5px solid #DDDDDD;
+    border-top: 1.5px solid #DDDDDD;
+    padding-right: 0px;
+    width: 100%;
+}
+.nav-part1{
+    padding-top: 97px;
+    padding-bottom: 26px;   
+}
+
+.nav-part2 {
+    padding-top: 28px;
+    width:100%;
+    border-top: 1.5px solid #DDDDDD;  
+}
+
+.side-bar .nav {
+    width: 40%;   
+}
+
+.side-bar a {
+    color: #999;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    height: 50px;    
+}
+
+.side-bar .nav-link i {
+    font-size: 17px;
+    padding-right: 27px;
+    color: #ccc;    
+}
+
+.nav-part2 .nav-link:nth-child(1){
+    padding-bottom: 30px;
+}
+
+.side-bar a:hover {
+    color: #1EB3F4;
+    font-size: 14px;
+    font-weight: bold;    
+}
+
+.side-bar a:hover i {
+    color: #000;
+    font-size: 20px;    
+}
+
+.side-bar a:focus {
+    color: #1EB3F4;
+    font-size: 14px;
+    font-weight: bold;    
+}
+
+.side-bar a:focus i{
+    color: #000;
+    font-size: 20px;    
+}
+
+/* ------------ Goal bar ------------ */
+
+/* ---------- add goals btn -------------- */
+.goal-bar{
+    background-color: #55ACEE;
+    border-top: 1.5px solid #DDDDDD;
+    width: 100%;
+    padding: 20px 50px;    
+}
+
+.btn-add-goal {
+    color: #F5F5F5;
+    background-color: #55ACEE;
+    border: 1.5px solid #F5F5F5;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    width: 150px;
+    height: 40px;
+    border-radius: 50px;    
+}
+
+.btn-add-goal:hover {
+    background-color: #fff;
+    color: #55ACEE;
+    border-color: #fff;    
+}
+
+.btn-add-goal:focus{
+    background-color: #fff;
+    color: #55ACEE;
+    border-color: #fff;    
+}
+
+.btn-add-goal .fa-plus {
+    font-size: 12px;
+    padding-right: 22%;    
+}
+
+/* -------------- tabs my goals/squad goals ------------ */
+.goal-tabs {
+    width: 208px;    
+}
+
+.goal-tabs .btn {
+    background-color: #55ACEE;
+    color: #F5F5F5;
+    border: 1.5px solid #F5F5F5;
+    border-radius: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    width: 100%;
+    height: 40px;    
+}
+
+.goal-tabs .btn:hover {
+    background-color: #fff;
+    color: #55ACEE;
+}
+
+.goal-tabs .btn:focus {
+    background-color: #fff;
+    color: #55ACEE;   
+}
+
+/* -------------- search form -------------- */
+.search-form {
+    width: 23%;
+}
+
+
+.search-form .btn {
+    height: 30px;
+    font-size: 12px;
+    background-color: #fff;
+    border: 0px;
+    border-radius: 0px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.search-form .form-control {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #7C8495;
+    height: 30px;
+    border:0px;   
+}
+
+/* ---------------- Goal panel --------------- */
+
+/* ---------------- My goals --------------- */
+.goal-panel {
+    background-color: #F5F5F5;
+    min-height: 1041px;
+    padding: 0px;
+}
+
+.panel-content {
+    display: none;
+    padding: 30px 15px 30px 30px;
+}
+
+.panel-content > .row {
+    margin: 0;
+}
+
+#squad-goals-panel .col-lg-8,
+#squad-goals-panel .col-lg-4 {
+    padding-left: 0;
+    padding-right: 20px;
+}
+
+.card-column {
+    padding: 0px;
+    padding-right: 30px;        
+}
+
+.goal-panel .card {
+    margin-bottom: 30px;
+    border: none;
+    border-radius: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    width: 100%;
+    height: 350px;
+    -moz-box-shadow: 0 0 3px #E6E6E6;
+    -webkit-box-shadow: 0 0 3px #E6E6E6;
+    box-shadow: 0 0 20px #E6E6E6;    
+}
+
+.goal-panel .card-header{
+    color: #34495E;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.26px;
+    line-height: 19px   
+}
+
+.progress-status {
+    color: #B3B3B3;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    text-align: right;
+    margin: 0px;
+    width: 140px;   
+}
+
+.more-menu {
+    font-size: 15px;
+    color: #D8D8D8;    
+}
+
+.more-menu:hover {
+    color: #000;   
+}
+
+.goal-panel .card-footer{
+    border-top: 0px;
+    color: #B3B3B3;   
+}
+
+.card-footer .dot{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 23px;   
+}
+
+.on-track {
+    background-color: #00DE51;   
+}
+
+.of-track {
+    background-color: #FF0000;   
+}
+
+.progress{
+    float: right;
+    border-radius: 0px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;    
+    font-size: 11px;
+    width: 100px;
+    height: 16px;     
+}
+
+/* ---------------- Squad goals --------------- */
+.set-a-goal{
+    background-color: #fff;
+    margin-bottom: 30px;
+    width: 100%;
+    height: 90px;
+    -moz-box-shadow: 0 0 3px #E6E6E6;
+    -webkit-box-shadow: 0 0 3px #E6E6E6;
+    box-shadow: 0 0 20px #E6E6E6;   
+}
+.set-a-goal img {
+    margin: 0px 18px;
+    width: 90px;
+    height: 90px;   
+}
+
+.set-a-goal .goal-info {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;    
+}
+
+.set-a-goal .goal-info h5{
+    color: #808080;
+    font-size: 13px;
+    padding-top: 10px;    
+}
+
+.set-a-goal .goal-info h6{
+    color: #B3B3B3;
+    font-size: 12px;    
+}
+
+.set-a-goal button{
+    border: none;
+    background-color: transparent;
+    color: #D8D8D8;
+    margin-top: 17px;
+    height: 25px;    
+}
+
+.set-a-goal button:hover {
+    cursor: pointer;   
+}
+
+/* ------------ Burger nav ---------------- */
+.burger-btn {
+    border: none;   
+}
+
+/* ----------- Media queries ------------- */
+@media (max-width: 990px) {
+    .content {
+        margin-top: 70px;    
+    }
+    
+    .nav-part1 {
+        padding: 0px;    
+    } 
+    
+    .nav-part2 {
+        padding: 0px;    
+    }
+    
+    .nav-part1 .nav {
+        width: 100%;
+        margin: 0px;
+        display: flex;
+        justify-content: center;   
+    }
+    
+    .nav-part2 .nav {
+        width: 100%;
+        margin: 0px;
+        padding-top: 20px;
+        display: flex;
+        justify-content: center;    
+    } 
+    
+    .nav-part1 .nav a {
+        display: inline;       
+    }
+    
+    .nav-part2 .nav a {
+        display: inline;    
+    }
+    
+    .panel-content {
+        padding-left: 40px;
+    } 
+}
+
+@media (max-width: 575px) {
+    form {
+        width: 300px;   
+    }
+    
+    .main-title {
+        margin-top: 35px;        
+    }
+    
+    .subtitle{
+        margin-top: 25px;   
+    }
+    
+    .header-wrapper {
+        justify-content: center;
+    }
+    
+    .nav-profile {
+        width: 100%;
+        margin-top: 20px;
+        text-align: center;
+    }
+     
+}
+
+@media (max-width: 767px) {
+    .goal-bar {
+        flex-wrap: wrap;
+    }
+    
+    .search-form {
+        width: 100%;
+        margin: 10px 0 0 0;
+    }
+}
+
+@media (max-width: 470px) {
+    .btn-add-goal {
+        width: 100%;
+    }
+    
+    .btn-add-goal .fa-plus {
+        padding-right: 10px;
+    }
+    
+    .goal-tabs {
+        margin: 10px 0 0 0;
+        width: 100%;
+    }
+}
